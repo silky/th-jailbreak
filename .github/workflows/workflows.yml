@@ -31,4 +31,4 @@ jobs:
 
       - name: test
         run: |
-          cabal v2-build all
+          cabal v2-test --test-show-details=direct all
